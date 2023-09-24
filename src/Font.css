@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Space";
+  src: local("Space"), url("./fonts/ClashGrotesk-Bold.otf") format("otf"),
+    url("./fonts/ClashGrotesk-Extralight.otf") format("otf"),
+    url("./fonts/ClashGrotesk-Light.otf") format("otf"),
+    url("./fonts/ClashGrotesk-Medium.otf") format("otf"),
+    url("./fonts/ClashGrotesk-Regular.otf") format("otf"),
+    url("./fonts/ClashGrotesk-Semibold.otf") format("otf");
+}
