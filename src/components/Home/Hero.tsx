@@ -22,7 +22,7 @@ const Hero = () => {
             Research Paper
           </button>
         </div>
-        <div className="w-full lg:h-[500px] sm:h-[300px] h-[250px]  flex items-center justify-center">
+        <div className="w-full lg:h-[500px] sm:h-[300px] h-[210px]  flex items-center justify-center">
           <img
             src="/Assets/Hero/HeroMain.png"
             className="w-full h-full object-fill pointer-events-none"
