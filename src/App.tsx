@@ -9,7 +9,7 @@ import CreateYourCompany from "./components/Home/CreateYourCompany";
 import Startup from "./components/Home/Startup";
 function App() {
   return (
-    <main className="font-clash bg-gradient-to-b from-black-main to-[#3D0C3D]">
+    <main className="font-clash bg-gradient-to-b from-black-main to-[#3D0C3D] overflow-hidden">
       <Navbar />
       <Hero />
       <Vision />

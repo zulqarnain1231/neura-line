@@ -43,8 +43,8 @@ const Navbar = () => {
   return (
     <>
       {" "}
-      <ComponentWrapper>
-        <nav className="w-full h-[70px] bg-transparent flex items-center justify-between">
+      <ComponentWrapper style="w-full h-[70px] bg-black-main" id="navbar">
+        <nav className="w-full h-full bg-transparent flex items-center justify-between">
           <img
             src="/Assets/Logo.png"
             className="h-[36px] w-[170px] object-contain pointer-events-none"
