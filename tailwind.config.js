@@ -11,6 +11,7 @@ export default {
         },
         white: {
           main: "#fff",
+          off: "#D9D9D9",
         },
         black: {
           main: "#000",

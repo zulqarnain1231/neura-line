@@ -16,6 +16,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-text-secondary {
+  background: linear-gradient(90deg, #ff3bff 0%, #5c24ff 72.33%, #d94fd5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .gradient-border {
   position: relative;
