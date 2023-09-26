@@ -22,6 +22,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* .gradient-newsletter {
+  background: linear-gradient(
+    90deg,
+    #ff3bff 0%,
+    #ecbfbf 38.02%,
+    #5c24ff 75.83%,
+    #d94fd5 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 .gradient-border {
   position: relative;

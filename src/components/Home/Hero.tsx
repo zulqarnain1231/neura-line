@@ -1,5 +1,6 @@
 import React from "react";
 import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
+import JoinWaitlistBtn from "../Shared/Buttons/JoinWaitlistBtn";
 
 const Hero = () => {
   return (
@@ -16,9 +17,7 @@ const Hero = () => {
           control and customize for you own needs and projects.
         </p>
         <div className="w-full flex sm:flex-row flex-col items-center justify-center gap-5">
-          <button className="h-[70px] w-[215px] flex items-center justify-center text-xl font-normal text-white-main bg-black-main rounded-[100px] gradient-border">
-            Join The Waitlist
-          </button>
+          <JoinWaitlistBtn />
           <button className="h-[70px] w-[215px] flex items-center justify-center text-xl font-normal text-white-main bg-black-main border-2 border-white-main rounded-[100px]">
             Research Paper
           </button>

@@ -6,8 +6,8 @@ const Vision = () => {
       id="vision"
       className="w-full grid lg:grid-cols-2 gap-6 place-items-center lg:py-0 py-10"
     >
-      <div className="w-full h-full flex flex-col items-center justify-center gap-8 xl:pl-[100px] pl-[40px] mt-10">
-        <h2 className="text-white-off text-center text-6xl font-medium">
+      <div className="w-full h-full flex flex-col items-center justify-center gap-8 xl:pl-[40px] lg:pl-[40px] px-4 md:px-10 lg:pr-0 mt-10">
+        <h2 className="text-white-off text-center sm:text-6xl text-5xl font-semibold">
           Your <span className="gradient-text-secondary">Vision</span> Comes
           True
         </h2>
