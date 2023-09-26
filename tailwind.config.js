@@ -21,6 +21,9 @@ export default {
         clash: ["Space", "sans-serif"],
         space: ["Space Grotesk", "sans-serif"],
       },
+      boxShadow: {
+        flowChart: "-38px 14px 150px -8px rgba(147,134,134,0.89)",
+      },
     },
   },
   plugins: [],
