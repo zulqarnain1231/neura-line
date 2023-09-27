@@ -1,7 +1,7 @@
 import React from "react";
 import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
 import JoinWaitlistBtn from "../Shared/Buttons/JoinWaitlistBtn";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 const NewsLetter = () => {
   return (
     <ComponentWrapper
