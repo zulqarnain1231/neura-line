@@ -7,11 +7,11 @@ const Startup = () => {
       <div className="w-full grid xl:grid-cols-[1.5fr,1fr] gap-16">
         <Slide className="w-full" triggerOnce direction="left">
           <aside className="w-full flex flex-col items-center justify-center gap-10 ideal-startup-gradient">
-            <h2 className="text-white-main sm:text-6xl text-4xl leading-[44px] text-center font-semibold">
+            <h2 className="xl:w-[85%] w-full text-white-main sm:text-5xl text-3xl leading-[44px] text-center font-medium">
               From Idea to a Full Startup{" "}
               <span className="gradient-text">In Minutes</span>
             </h2>
-            <p className="text-center text-white-main sm:text-xl text-base font-medium">
+            <p className="text-center text-white-main sm:text-lg text-base font-medium">
               Iterate over your ideas and jump from a sketch to a full prototype
               in just a couple of minutes.
             </p>

@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <div className="w-full flex sm:flex-row flex-col items-center justify-center gap-5">
             <JoinWaitlistBtn />
-            <button className="h-[70px] w-[215px] flex items-center justify-center sm:text-xl text-lg font-normal text-white-main bg-black-main border-2 border-white-main rounded-[100px]">
+            <button className="h-[56px] w-[215px] flex items-center justify-center sm:text-xl text-lg font-normal text-white-main bg-black-main border-2 border-white-main rounded-[100px]">
               Research Paper
             </button>
           </div>

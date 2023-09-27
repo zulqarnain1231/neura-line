@@ -10,7 +10,7 @@ const Features = () => {
         <Slide className="w-full" direction="left" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
                 No <span className="gradient-text">Coding</span> Knowledge
                 Required
               </h2>
@@ -28,24 +28,24 @@ const Features = () => {
         <Slide className="w-full" direction="up" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
                 Unleash the Power of{" "}
                 <span className="gradient-text-secondary">AI</span>
               </h2>
             }
             detail=" Our goal is to create a fully autonomous AI company which you can control and customize for you own needs and projects."
-            gap="xl:gap-[90px] gap-7"
+            gap="xl:gap-[80px] gap-7"
           />{" "}
         </Slide>
         <Slide className="w-full" direction="right" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
                 Transform <span className="gradient-text">Your Ideas</span>
               </h2>
             }
             detail="Neuraline is designed to be intuitive and powerful. Start with your raw idea, and watch as our AI seamlessly crafts it into a full-fledged prototype. Our platform is the perfect blend of human intelligence and machine precision. Here's a simple step-by-step process of how Neuraline transforms your dreams into reality:"
-            gap="xl:gap-[84px] gap-7"
+            gap="xl:gap-[80px] gap-7"
           />
         </Slide>
       </div>

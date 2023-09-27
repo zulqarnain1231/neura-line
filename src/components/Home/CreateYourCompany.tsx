@@ -16,12 +16,12 @@ const CreateYourCompany = () => {
         </Fade>
         <aside className="w-full flex flex-col items-center justify-center gap-6">
           <Slide className="w-full" direction="right" triggerOnce>
-            <h2 className="text-white-main text-center sm:text-6xl text-4xl leading-[44px] font-semibold">
+            <h2 className="text-white-main text-center sm:text-5xl text-3xl leading-[44px] font-medium">
               Create Your Own{" "}
               <span className="gradient-text-secondary">Company</span> Structure
               It <span className="gradient-text-secondary">Your Way</span>
             </h2>
-            <p className="text-white-main sm:text-xl text-base text-center font-medium">
+            <p className="text-white-main sm:text-lg text-base text-center font-medium">
               Pick the best suited AI Agents for the job and create a workflow
               that suites the task. Fully Customizable , No Coding experience
               required.
