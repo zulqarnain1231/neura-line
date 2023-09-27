@@ -15,6 +15,8 @@ const Startup = () => {
               Iterate over your ideas and jump from a sketch to a full prototype
               in just a couple of minutes.
             </p>
+            {/* <span className="absolute bottom-[30%] right-[10%] md:w-[250px] w-[150px] md:h-[250px] h-[150px] transform-[rotate(161.99deg)] opacity-30 bg-brand-main shadow-circle rounded-full md:blur-[100px] blur-[50px] pointer-events-none" />
+            <span className="absolute -bottom-[5%] right-[0%] md:w-[200px] w-[150px] md:h-[250px] h-[100px] transform-[rotate(161.99deg)] opacity-30 bg-brand-secondary shadow-circle rounded-full md:blur-[100px] blur-[50px] pointer-events-none" /> */}
           </aside>
         </Slide>
         <Slide className="w-full" triggerOnce direction="right" delay={200}>
