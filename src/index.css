@@ -64,3 +64,40 @@
 .footer-bg {
   background: linear-gradient(8deg, #000 -71.32%, rgba(0, 0, 0, 0) 262.29%);
 }
+
+.features-gradient {
+  background: linear-gradient(324deg, #10303d -18.41%, rgba(0, 0, 0, 0) 46.09%);
+}
+
+.ideal-startup-gradient {
+  background: radial-gradient(
+    39.28% 62.76% at 53.05% 50.88%,
+    #3a0b3a 1.73%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.ideal-startup-gradient2 {
+  background: radial-gradient(
+    53.41% 55.41% at 41.37% 55.41%,
+    #10303d 1.73%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.comapny-gradient {
+  background: radial-gradient(
+    43.44% 57.27% at 40.73% 51.67%,
+    #10303d 1.73%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.vision-gradient {
+  background: radial-gradient(
+    42.3% 45.99% at 58.72% 58.21%,
+    #3a0b3a 1.73%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

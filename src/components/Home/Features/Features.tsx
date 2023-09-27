@@ -5,12 +5,12 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const Features = () => {
   return (
-    <ComponentWrapper id="features" style="lg:py-36 py-10">
+    <ComponentWrapper id="features" style="lg:py-36 py-16 features-gradient">
       <div className="w-full grid lg:grid-cols-3 gap-10">
         <Slide className="w-full" direction="left" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-5xl sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
                 No <span className="gradient-text">Coding</span> Knowledge
                 Required
               </h2>
@@ -28,7 +28,7 @@ const Features = () => {
         <Slide className="w-full" direction="up" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-5xl sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
                 Unleash the Power of{" "}
                 <span className="gradient-text-secondary">AI</span>
               </h2>
@@ -40,7 +40,7 @@ const Features = () => {
         <Slide className="w-full" direction="right" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-5xl sm:text-6xl font-semibold">
+              <h2 className="text-white-main text-center text-4xl leading-[46px] sm:text-6xl font-semibold">
                 Transform <span className="gradient-text">Your Ideas</span>
               </h2>
             }
