@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <ComponentWrapper id="hero" style="w-full min-h-[calc(100dvh-70px)]">
-      <div className="w-full h-full flex flex-col items-center justify-center gap-6 bg-[url('/Assets/Hero/Circles.png')] bg-top bg-no-repeat bg-cover mt-10">
+      <div className="w-full h-full flex flex-col items-center justify-center gap-6 bg-[url('/Assets/Hero/Circles.png')] bg-top bg-no-repeat bg-cover md:mt-28 mt-16">
         <Slide className="w-full" direction="down" triggerOnce>
           <div className="xl:w-[60%] md:w-[90%] w-full flex items-center justify-center mx-auto">
             <h1 className="text-center sm:text-6xl text-5xl sm:leading-[76px] font-semibold text-white-main">
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="w-full lg:h-[400px] sm:h-[300px] h-[210px]  flex items-center justify-center">
             <img
               src="/Assets/Hero/HeroMain.png"
-              className="w-full h-full sm:object-fill object-contain flex-shrink-0 pointer-events-none"
+              className="w-full h-full  object-contain flex-shrink-0 pointer-events-none"
               alt=""
             />
           </div>

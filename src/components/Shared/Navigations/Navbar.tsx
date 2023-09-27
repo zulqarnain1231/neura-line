@@ -55,7 +55,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={item.route}
-                className="text-white-main text-lg font-light"
+                className="text-white-main text-base font-light"
               >
                 {item.name}
               </a>
