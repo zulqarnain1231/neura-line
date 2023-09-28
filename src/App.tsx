@@ -18,7 +18,7 @@ function App() {
       <Features />
       <NewsLetter />
       <Footer />
-      <div className="fixed bottom-0 left-0 z-10 h-[400px] w-full sticky-gradient"></div>
+      <div className="fixed bottom-0 left-0 z-10 h-[300px] w-full sticky-gradient"></div>
     </main>
   );
 }

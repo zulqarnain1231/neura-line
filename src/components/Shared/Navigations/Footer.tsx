@@ -50,8 +50,8 @@ const Footer = () => {
     ],
   ];
   return (
-    <footer className="w-full flex flex-col items-center justify-start gap-16 lg:pt-16 pt-10 footer-bg">
-      <Slide className="w-full" direction="left" triggerOnce>
+    <footer className="w-full flex flex-col items-center justify-start gap-16 lg:pt-16 pt-10 footer-bg z-20">
+      <Slide className="w-full z-20" direction="left" triggerOnce>
         <div className="w-full h-full max-w-[1430px] mx-auto md:px-10 px-4">
           <div className="w-full grid md:grid-cols-6 gap-6">
             {menu.map((item: any, index: number) => (
@@ -73,8 +73,8 @@ const Footer = () => {
           </div>
         </div>
       </Slide>
-      <Slide className="w-full" direction="left" triggerOnce>
-        <div className="w-full bg-black-main py-5 md:px-10 px-4">
+      <Slide className="w-full z-20" direction="left" triggerOnce>
+        <div className="w-full bg-black-main py-5 md:px-10 px-4 z-20">
           <div className="w-full h-full max-w-[1430px] mx-auto">
             <div className="w-full grid md:grid-cols-[.5fr,1fr,1fr,2fr,1fr] gap-6 py-2 border-b border-b-white-main/40">
               <Scrolling
