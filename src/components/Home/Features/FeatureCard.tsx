@@ -14,7 +14,7 @@ const FeatureCard: React.FC<Props> = ({
   return (
     <div className={`w-full flex flex-col items-center justify-start ${gap}`}>
       {title}
-      <p className="text-center text-white-main sm:text-lg text-base font-normal">
+      <p className="text-center text-white-main text-base font-normal">
         {detail}
       </p>
     </div>

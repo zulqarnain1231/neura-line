@@ -10,7 +10,7 @@ const Features = () => {
         <Slide className="w-full" direction="left" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
+              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-[44px] sm:leading-[54px] font-medium">
                 No <span className="gradient-text">Coding</span> Knowledge
                 Required
               </h2>
@@ -28,7 +28,7 @@ const Features = () => {
         <Slide className="w-full" direction="up" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
+              <h2 className="text-white-main text-center xl:w-[95%] w-full text-3xl leading-[46px] sm:text-[44px] sm:leading-[54px] font-medium">
                 Unleash the Power of{" "}
                 <span className="gradient-text-secondary">AI</span>
               </h2>
@@ -40,7 +40,7 @@ const Features = () => {
         <Slide className="w-full" direction="right" triggerOnce>
           <FeatureCard
             title={
-              <h2 className="text-white-main text-center text-3xl leading-[46px] sm:text-5xl font-medium">
+              <h2 className="text-white-main text-center text-3xl xl:w-[70%] w-full leading-[46px] sm:text-[44px] sm:leading-[54px] font-medium">
                 Transform <span className="gradient-text">Your Ideas</span>
               </h2>
             }

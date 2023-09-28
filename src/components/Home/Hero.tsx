@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="w-full h-full flex flex-col items-center justify-center gap-6 bg-[url('/Assets/Hero/Circles.png')] bg-top bg-no-repeat bg-cover md:mt-28 mt-16">
         <Slide className="w-full" direction="down" triggerOnce>
           <div className="xl:w-[60%] md:w-[90%] w-full flex items-center justify-center mx-auto">
-            <h1 className="text-center sm:text-6xl text-5xl sm:leading-[76px] font-semibold text-white-main">
+            <h1 className="text-center sm:text-[58px] text-5xl sm:leading-[76px] font-semibold text-white-main">
               <span className="gradient-text">Your Own AI Workforce</span>{" "}
               Created By You.
             </h1>
           </div>
-          <p className="xl:w-[50%] md:w-[80%] w-full mx-auto text-white-main sm:text-xl text-lg text-center font-normal ">
+          <p className="xl:w-[50%] md:w-[80%] w-full mx-auto text-white-main text-lg text-center font-normal ">
             Our goal is to create a fully autonomous AI company which you can
             control and customize for you own needs and projects.
           </p>

@@ -9,12 +9,12 @@ const NewsLetter = () => {
       style="w-full bg-black-main lg:py-16 py-16"
     >
       <Fade className="w-full" triggerOnce delay={300}>
-        <div className="w-full flex flex-col items-center justify-start gap-12">
-          <h2 className="text-white-off sm:text-5xl text-3xl leading-[46px] font-medium text-center">
+        <div className="w-full flex flex-col items-center justify-start gap-10">
+          <h2 className="text-white-off sm:text-[44px] sm:leading-[54px] text-3xl leading-[46px] font-medium text-center">
             Sign Up To Our{" "}
             <span className="gradient-text-secondary">Newslatter</span>
           </h2>
-          <p className="xl:w-[40%] mx-auto text-white-off sm:text-lg text-base text-center font-normal">
+          <p className="xl:w-[35%] mx-auto text-white-off text-base text-center font-normal">
             And be the first to get updates, news and alpha access to NeuraLine.
           </p>
           <input

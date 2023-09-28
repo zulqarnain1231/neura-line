@@ -101,3 +101,12 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+.sticky-gradient {
+  background: rgb(247, 207, 48);
+  background: linear-gradient(
+    180deg,
+    rgba(247, 207, 48, 0) 44%,
+    rgba(243, 4, 191, 0.267) 97%
+  );
+}
