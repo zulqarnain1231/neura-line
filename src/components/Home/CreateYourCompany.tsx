@@ -1,6 +1,7 @@
 import React from "react";
 import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
 import { Fade, Slide } from "react-awesome-reveal";
+import ParagraphText from "../Shared/Typography/ParagraphText";
 const CreateYourCompany = () => {
   return (
     <ComponentWrapper id="company" style="lg:py-36 py-16">
@@ -21,11 +22,11 @@ const CreateYourCompany = () => {
               <span className="gradient-text-secondary">Company</span> Structure
               It <span className="gradient-text-secondary">Your Way</span>
             </h2>
-            <p className="text-white-main text-base text-center font-medium">
-              Pick the best suited AI Agents for the job and create a workflow
+            <ParagraphText
+              text=" Pick the best suited AI Agents for the job and create a workflow
               that suites the task. Fully Customizable , No Coding experience
-              required.
-            </p>
+              required."
+            />
           </Slide>
         </aside>
       </div>

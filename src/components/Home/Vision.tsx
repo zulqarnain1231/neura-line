@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade, Slide } from "react-awesome-reveal";
+import ParagraphText from "../Shared/Typography/ParagraphText";
 const Vision = () => {
   return (
     <section
@@ -12,16 +13,18 @@ const Vision = () => {
             Your <span className="gradient-text-secondary">Vision</span> Comes
             True
           </h2>
-          <p className="text-white-off text-center text-base font-normal">
-            With NeuraLine you are able to interrupt and suggest changes at any
+          <ParagraphText
+            text="With NeuraLine you are able to interrupt and suggest changes at any
             point of the autonomous development , to shape the developed product
-            to fit your vision.
-          </p>
-          <p className="text-white-off text-center text-base font-normal">
-            With our man- in-the-loop approach you will always be in the know of
+            to fit your vision."
+            style="xl:w-[80%] w-full"
+          />
+          <ParagraphText
+            text="  With our man- in-the-loop approach you will always be in the know of
             any small change in the development cycle and you will be able to
-            react to it to suit the product for your needs.
-          </p>
+            react to it to suit the product for your needs."
+            style="xl:w-[80%] w-full"
+          />
         </div>
       </Slide>
       <Slide className="w-full" triggerOnce direction="right" delay={500}>
